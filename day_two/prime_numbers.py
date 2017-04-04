@@ -9,9 +9,9 @@ def prime_number_generator(n):
 		return "Use a value greater than 2"
 	else:
 		for num in range(2,n):
-			if num>1:
-				for x in range(2,num):
-					if (num%x==0):
-						break
-				else:	
-					print (num)
+			for x in range(2,num):
+				if (num%x==0):
+					break
+			else:	
+				print (num)
+prime_number_generator(10)
