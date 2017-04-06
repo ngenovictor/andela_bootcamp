@@ -1,4 +1,5 @@
 import unittest
+from binary_search import BinarySearch
 
 class ListComprehensionTest(unittest.TestCase):
 
